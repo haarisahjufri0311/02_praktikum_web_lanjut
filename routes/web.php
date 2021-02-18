@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\PageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 // Pratikum 1
 //no 1 
-Route::get('/', function () {
+/*Route::get('/', function () {
     echo "Selamat Datang";
 });
 //no 2
@@ -24,4 +24,9 @@ Route::get('/about', function () {
 //no 3
 Route::get('/artikel/{id}', function ($id) {
     echo 'Halaman Artikel' .$id;
-});
+});*/
+
+//Pratikum 2
+Route::get('/', [PageController::class, 'index']);
+Route::get('/about', [PageController::class, 'about']);
+Route::get('/articles/{id}', [PageController::class, 'artikel']);
