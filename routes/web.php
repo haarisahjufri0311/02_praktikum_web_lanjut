@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 // Pratikum 1
-//no 1
+//no 1 
 Route::get('/', function () {
     echo "Selamat Datang";
 });
