@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,6 +29,29 @@ Route::get('/artikel/{id}', function ($id) {
 });*/
 
 //Pratikum 2
-Route::get('/', [PageController::class, 'index']);
+/*Route::get('/', [PageController::class, 'index']);
 Route::get('/about', [PageController::class, 'about']);
-Route::get('/articles/{id}', [PageController::class, 'artikel']);
+Route::get('/articles/{id}', [PageController::class, 'artikel']);*/
+
+//Pratikum 3 
+Route::get('/', [ProductController::class, 'index']);
+Route::prefix('product')->group(function () {
+    Route::get('/', [ProductController::class, 'product']);
+    Route::get('/edugame', [ProductController::class, 'edugame']);
+    Route::get('/kidgame', [ProductController::class, 'kidgame']);
+    Route::get('/storybook', [ProductController::class, 'storybook']);
+    Route::get('/kidsongs', [ProductController::class, 'kidsongs']);
+});
+Route::get('/News/{id}', [ProductController::class, 'News']);
+Route::prefix('program')->group(function () {
+    Route::get('/', [ProductController::class, 'program']);
+    Route::get('/karir', [ProductController::class, 'karir']);
+    Route::get('/magang', [ProductController::class, 'magang']);
+    Route::get('/industri', [ProductController::class, 'industri']);
+
+});
+Route::get('/AboutUs', [ProductController::class, 'AboutUs']);
+
+Route::resource('Contact', ContactController::class)->only([
+    'index'
+]);
