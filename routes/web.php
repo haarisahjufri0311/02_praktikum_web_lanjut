@@ -34,7 +34,7 @@ Route::get('/about', [PageController::class, 'about']);
 Route::get('/articles/{id}', [PageController::class, 'artikel']);*/
 
 //Pratikum 3 
-Route::get('/', [ProductController::class, 'index']);
+/*Route::get('/', [ProductController::class, 'index']);
 Route::prefix('product')->group(function () {
     Route::get('/', [ProductController::class, 'product']);
     Route::get('/edugame', [ProductController::class, 'edugame']);
@@ -55,3 +55,9 @@ Route::get('/AboutUs', [ProductController::class, 'AboutUs']);
 Route::resource('Contact', ContactController::class)->only([
     'index'
 ]);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');*/
+
+//Pratikum 1
+Route::view('/blog','blog' );
