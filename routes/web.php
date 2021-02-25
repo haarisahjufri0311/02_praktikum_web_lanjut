@@ -60,4 +60,4 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');*/
 
 //Pratikum 1
-Route::view('/blog','blog' );
+Route::view('/blog','Blog' );
