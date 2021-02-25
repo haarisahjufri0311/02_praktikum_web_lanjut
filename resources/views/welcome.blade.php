@@ -16,13 +16,17 @@
 
         <style>
             body {
-                font-family: 'Nunito';
+                font-family: 'Navis';
             }
         </style>
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
-        <div class="ml-4 text-lg leading-7 font-semibold"><h1 class="text-gray-900 dart:text-white">Haarisah Yustika Putri Al-Jufri</h1></div>
-        </div>
+           
+
+                    <div class="ml-4 text-lg leading-7 font-semibold"><h1 class="text-gray-900 dark:text-white"> Navis</h1></div>
+                       
+                    </div>
+                
     </body>
 </html>
