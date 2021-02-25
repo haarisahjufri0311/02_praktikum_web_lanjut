@@ -63,4 +63,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::view('/blog','Blog' );
 Route::view('/Contact', 'Contact');
 Route::view('/Product', 'Product');
-Route::view('/Index', 'Index');
+Route::view('/', 'Index');
