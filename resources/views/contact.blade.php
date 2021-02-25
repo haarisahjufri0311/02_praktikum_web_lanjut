@@ -13,15 +13,15 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
       <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="assets/css/style.css">
       <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="assets/images/fevicon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -33,7 +33,7 @@
    <body class="main-layout contact_page">
       <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+         <div class="loader"><img src="assets/images/loading.gif" alt="#" /></div>
       </div>
 
      <div class="wrapper">
@@ -81,20 +81,20 @@
                <div class="col-lg-3 logo_section">
                   <div class="full">
                      <div class="center-desk">
-                        <div class="logo"> <a href="index.html"><img src="images/logo.jpg" alt="#"></a> </div>
+                        <div class="logo"> <a href="index.html"><img src="assets/images/logo.jpg" alt="#"></a> </div>
                      </div>
                   </div>
                </div>
                <div class="col-lg-9">
                   <div class="right_header_info">
                      <ul>
-                        <li><a href="#"><img style="margin-right: 15px;" src="icon/1.png" alt="#" /></a></li>
-                        <li class="tytyu" ><a href="#"><img style="margin-right: 15px;" src="icon/2.png" alt="#" /></a></li>
-                        <li><a href="#"><img style="margin-right: 15px;" src="icon/3.png" alt="#" /></a></li>
+                        <li><a href="#"><img style="margin-right: 15px;" src="assets/icon/1.png" alt="#" /></a></li>
+                        <li class="tytyu" ><a href="#"><img style="margin-right: 15px;" src="assets/icon/2.png" alt="#" /></a></li>
+                        <li><a href="#"><img style="margin-right: 15px;" src="assets/icon/3.png" alt="#" /></a></li>
 
                          <li>
                            <button type="button" id="sidebarCollapse">
-                              <img src="images/menu_icon.png" alt="#" />
+                              <img src="assets/images/menu_icon.png" alt="#" />
                            </button>
                         </li>
                      </ul>
@@ -230,14 +230,14 @@
    <div class="overlay"></div>
 
       <!-- Javascript files--> 
-      <script src="js/jquery.min.js"></script> 
-      <script src="js/popper.min.js"></script> 
-      <script src="js/bootstrap.bundle.min.js"></script> 
-      <script src="js/jquery-3.0.0.min.js"></script> 
-      <script src="js/plugin.js"></script> 
+      <script src="assets/js/jquery.min.js"></script> 
+      <script src="assets/js/popper.min.js"></script> 
+      <script src="assets/js/bootstrap.bundle.min.js"></script> 
+      <script src="assets/js/jquery-3.0.0.min.js"></script> 
+      <script src="assets/js/plugin.js"></script> 
       <!-- sidebar --> 
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script> 
-      <script src="js/custom.js"></script>
+      <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script> 
+      <script src="assets/js/custom.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
      <script type="text/javascript">
         $(document).ready(function () {
@@ -289,7 +289,7 @@
           center: {lat: 40.645037, lng: -73.880224},
           });
 
-        var image = 'images/maps-and-flags.png';
+        var image = 'assets/images/maps-and-flags.png';
         var beachMarker = new google.maps.Marker({
           position: {lat: 40.645037, lng: -73.880224},
           map: map,
