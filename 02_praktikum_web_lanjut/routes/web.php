@@ -78,6 +78,10 @@ use Illuminate\Support\Facades\views;
 //nomor 6
 // Route::get('/contact-us', [ContactUs::class, 'contact']);
 
-Route::view('/Index','Index');
-Route::view('/product-detail','product');
-Route::view('/about','about');
+Route::view('/blog','Blog' );
+Route::view('/contact', 'contact');
+Route::view('/product', 'product');
+Route::view('/index', 'index');
+Route::view('/Home', 'Home');
+Route::view('/about', 'about');
+Route::view('/product_detail3', 'product_detail3');
