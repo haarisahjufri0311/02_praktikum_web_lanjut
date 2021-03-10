@@ -19,18 +19,29 @@
 <div class="about">
   <div class="container">
     <div class="row">
+      @foreach ($abouts as $item)
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
         <div class="aboutimg">
-        <h3>About us</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+         
+        <h3>{{$item['title']}}</h3>
+        <p>{{$item['descriptions']}}</p>
         <a href="#">Read More</a>
+        
         </div>
       </div>
+      @endforeach
+
+     
+          
+   
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
         <div class="aboutimg">
-        <figure><img src="images/Avangarda_klu.jpg"/></figure>
+          @foreach ($pictures as $picture)
+        <figure><img src={{($picture -> image)}}/></figure>
+        @endforeach
         </div>
       </div>
+      
     </div>
   </div>
 </div>

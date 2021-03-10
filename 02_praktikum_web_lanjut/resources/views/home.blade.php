@@ -16,7 +16,9 @@
                         <div class="row">
                             <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
                                 <div class="img_bg">
-                                    <h3>50% DISCOUNT<br> <strong class="black_nolmal">the latest collection</strong></h3>
+                                    @foreach
+                                    <h3>{{$table('title')}}<br> <strong class="black_nolmal">{{$table('title')}}</strong></h3>
+                                    @endforeach
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
@@ -34,9 +36,13 @@
                     <div class="carousel-caption text">
                         <div class="row">
                             <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-                                <div class="img_bg">
+                               
+                                <div class="img_bg">  
+                                    @foreach                                
                                     <h3>50% DISCOUNT<br> <strong class="black_nolmal">the latest collection</strong></h3>
+                                    @endforeach
                                 </div>
+                               
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                 <div class="img_bg">

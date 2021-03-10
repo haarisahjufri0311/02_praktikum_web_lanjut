@@ -5,6 +5,7 @@ use App\Http\Controllers\Home;
 use App\Http\Controllers\Program;
 use App\Http\Controllers\ContactUs;
 use Illuminate\Support\Facades\views;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -78,10 +79,18 @@ use Illuminate\Support\Facades\views;
 //nomor 6
 // Route::get('/contact-us', [ContactUs::class, 'contact']);
 
-Route::view('/blog','Blog' );
+/*Route::view('/blog','Blog' );
 Route::view('/contact', 'contact');
 Route::view('/product', 'product');
 Route::view('/index', 'index');
 Route::view('/Home', 'Home');
 Route::view('/about', 'about');
 Route::view('/product_detail3', 'product_detail3');
+*/
+Route::get('/index', [HomeController::class, 'index']);
+Route::get('/about', [HomeController::class, 'about']);
+Route::get('/blog', [HomeController::class, 'blog']);
+Route::get('/contact', [HomeController::class, 'contact']);
+Route::get('/product', [HomeController::class, 'product']);
+Route::get('/product_detail3', [HomeController::class, 'product_detail3']);
+

@@ -21,7 +21,7 @@
         <div class="full product">
           <div class="product_img">
             <div class="center"> <img src="icon/p1.png" alt="#"/>
-              <div class="overlay_hover"> <a class="add-bt" href="product_detail3.html">+ Add to cart</a> </div>
+              <div class="overlay_hover"> <a class="add-bt" href="/product_detail3">+ Add to cart</a> </div>
             </div>
           </div>
           <div class="product_detail text_align_center">
@@ -36,7 +36,7 @@
         <div class="full product">
           <div class="product_img">
             <div class="center"> <img src="icon/p2.png" alt="#"/>
-              <div class="overlay_hover"> <a class="add-bt" href="product_detail3.html">+ Add to cart</a> </div>
+              <div class="overlay_hover"> <a class="add-bt" href="/product_detail3">+ Add to cart</a> </div>
             </div>
           </div>
           <div class="product_detail text_align_center">
@@ -51,7 +51,7 @@
         <div class="full product">
           <div class="product_img">
             <div class="center"> <img src="icon/p3.png" alt="#"/>
-              <div class="overlay_hover"> <a class="add-bt" href="product_detail3.html">+ Add to cart</a> </div>
+              <div class="overlay_hover"> <a class="add-bt" href="/product_detail3">+ Add to cart</a> </div>
             </div>
           </div>
           <div class="product_detail text_align_center">
@@ -66,7 +66,7 @@
         <div class="full product">
           <div class="product_img">
             <div class="center"> <img src="icon/p4.png" alt="#"/>
-              <div class="overlay_hover"> <a class="add-bt" href="product_detail3.html">+ Add to cart</a> </div>
+              <div class="overlay_hover"> <a class="add-bt" href="/product_detail3">+ Add to cart</a> </div>
             </div>
           </div>
           <div class="product_detail text_align_center">
@@ -81,7 +81,7 @@
         <div class="full product">
           <div class="product_img">
             <div class="center"> <img src="icon/p1.png" alt="#"/>
-              <div class="overlay_hover"> <a class="add-bt" href="product_detail3.html">+ Add to cart</a> </div>
+              <div class="overlay_hover"> <a class="add-bt" href="/product_detail3">+ Add to cart</a> </div>
             </div>
           </div>
           <div class="product_detail text_align_center">
@@ -96,7 +96,7 @@
         <div class="full product">
           <div class="product_img">
             <div class="center"> <img src="icon/p2.png" alt="#"/>
-              <div class="overlay_hover"> <a class="add-bt" href="product_detail3.html">+ Add to cart</a> </div>
+              <div class="overlay_hover"> <a class="add-bt" href="/product_detail3">+ Add to cart</a> </div>
             </div>
           </div>
           <div class="product_detail text_align_center">

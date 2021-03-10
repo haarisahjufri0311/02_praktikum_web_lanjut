@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function index(){
-        return 'Selamat Datang';
+        return  view('home');
     }
     public function about() {
         echo "1941720221<br>Haarisah Yustika Putri<br>TI-2A";
