@@ -9,6 +9,6 @@ class Picture extends Model
 {
     use HasFactory;
     public static function picture(){
-        return Picture::all('image');
+        return Picture::all();
 }
 }

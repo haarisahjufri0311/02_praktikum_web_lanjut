@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class About extends Model
 {
     use HasFactory;
-    public static function about(){
-        return about::all();
+    public static function Abouts(){
+        return About::all();
 }
 }

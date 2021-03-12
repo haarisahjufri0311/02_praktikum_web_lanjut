@@ -13,9 +13,9 @@ class HomeController extends Controller
     public static function index(){
         return view('index');
     }
-    public static function about(){
-        return view('about', ['abouts' => About::about(), 'pictures' => Picture::picture()]);
-}
+    public function about(){
+        return view('about', ['abouts' => About::Abouts()]);
+    }
 public function contact(){
     return view('contact');
 }

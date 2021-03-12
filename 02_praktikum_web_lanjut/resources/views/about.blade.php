@@ -29,19 +29,13 @@
         
         </div>
       </div>
-      @endforeach
-
-     
-          
-   
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
         <div class="aboutimg">
-          @foreach ($pictures as $picture)
-        <figure><img src={{($picture -> image)}}/></figure>
-        @endforeach
+        <figure><img src= "{{($item -> image)}}"/></figure>
+        
         </div>
       </div>
-      
+      @endforeach
     </div>
   </div>
 </div>
